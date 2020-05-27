@@ -371,6 +371,7 @@ set(PLUGINS_SRC
   src/plugins/host_dvfs.cpp
   src/plugins/host_energy.cpp
   src/plugins/link_energy.cpp
+  src/plugins/host_temperature.cpp
   src/plugins/host_load.cpp
   src/plugins/file_system/s4u_FileSystem.cpp
   src/plugins/vm/VirtualMachineImpl.hpp
@@ -685,6 +686,7 @@ set(headers_to_install
   include/simgrid/chrono.hpp
   include/simgrid/plugins/dvfs.h
   include/simgrid/plugins/energy.h
+  include/simgrid/plugins/temperature.h
   include/simgrid/plugins/file_system.h
   include/simgrid/plugins/live_migration.h
   include/simgrid/plugins/load.h

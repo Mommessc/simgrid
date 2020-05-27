@@ -651,3 +651,8 @@ double sg_host_get_current_consumption(const_sg_host_t host)
   ensure_plugin_inited();
   return host->extension<HostEnergy>()->get_current_watts_value();
 }
+
+int sg_host_energy_is_inited()
+{
+  return HostEnergy::EXTENSION_ID.valid();
+}

@@ -24,6 +24,7 @@ XBT_PUBLIC double sg_host_get_current_consumption(const_sg_host_t host);
 XBT_PUBLIC void sg_link_energy_plugin_init();
 XBT_PUBLIC double sg_link_get_consumed_energy(const_sg_link_t link);
 
+XBT_PUBLIC int sg_host_energy_is_inited();
 XBT_PUBLIC int sg_link_energy_is_inited();
 
 #define MSG_host_energy_plugin_init() sg_host_energy_plugin_init()
